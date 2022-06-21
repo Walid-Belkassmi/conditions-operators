@@ -97,3 +97,36 @@
 // }else{
 //     console.log(Math.ceil(roundedNumber))
 // }
+
+// 08 - Rounded but better, Méthode 2
+// let number = 3.5
+// let decimalString = ""
+// let decimal = 0
+// let res = 0
+
+// number = number.toString()
+// let index = number.indexOf(".")
+
+// decimalString = number.substring(index)
+// decimal = parseFloat(decimalString)
+
+// if(decimal < 0.5){
+//     console.log(number - decimal)
+// } else{
+//     number = parseFloat(number)
+//     res = 1-decimal + number
+//     console.log(res)
+// }
+
+// 09 - Rounded but better, Méthode 3
+// let roundedNumber = 3.3
+// let decimalNumber = roundedNumber.toString()
+// let word = decimalNumber.split("")[2]
+
+// if(parseInt(word) < 5){
+//     console.log(Math.floor(roundedNumber))
+// }else{
+//     console.log(Math.ceil(roundedNumber))
+// }
+
+
